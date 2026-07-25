@@ -1,22 +1,76 @@
 aid: coolant
 name: Coolant
-description: Coolant is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Coolant (Coolant Climate, Inc.) is a climate-technology startup building
+  AI-powered forest monitoring and carbon measurement from consumer-grade drone
+  imagery. Its "3D spatial intelligence" platform reconstructs high-resolution
+  3D forest models from ordinary drone footage (DJI Mini, Mavic) and applies
+  computer vision to measure biomass, tree height, diameter at breast height
+  (DBH), tree counts, species, and growth rates — delivering LiDAR-grade
+  accuracy at a fraction of the cost. The company positions this as the
+  measurement, reporting, and verification (MRV) layer for scalable, verifiable
+  carbon removal, reforestation success tracking, and conservation planning.
+  Coolant raised a $4.3M seed round from General Catalyst and Floodgate in
+  October 2025. As of this profile the company operates a marketing site, a
+  demo web application, and a technical blog, but publishes no public developer
+  API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/coolant/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
+- floodgate
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-name: Coolant Climate, Inc.
+x-industry: Climate Tech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://coolant.earth/hero.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Climate Tech
+- Carbon Removal
+- Forest Monitoring
+- Spatial Intelligence
+- Computer Vision
+- Drones
+- MRV
 apis: []
+common:
+- type: Website
+  url: https://coolant.earth/
+- type: Blog
+  url: https://coolant.earth/blogs
+- type: Demo
+  url: https://app.coolant.earth/project/Showcase
+- type: LinkedIn
+  url: https://www.linkedin.com/company/coolantclimate/
+- type: Contact
+  url: mailto:michael@coolant.earth
+- type: Whitepaper
+  url: https://coolant.earth/blogs
+- type: DomainSecurity
+  url: security/coolant-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
